@@ -1,0 +1,24 @@
+# PyQt6 Desktop Application Requirements
+# 核心依赖
+
+# Deep Learning & Computer Vision
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# GUI Framework
+PyQt6>=6.4.0
+PyQt6-Qt6>=6.4.0
+
+# Data Handling
+pandas>=2.0.0
+Pillow>=10.0.0
+
+# Utilities
+pyyaml>=6.0
+python-dotenv>=1.0.0
+
+# Optional: CUDA support (comment out if not needed)
+# torch-cuda

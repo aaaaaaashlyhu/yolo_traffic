@@ -1,0 +1,27 @@
+# --- 1. 核心忽略：原始数据和数据集 ---
+raw_data/
+datasets/
+train/
+runs/
+detection_results/
+
+# --- 2. 权重文件（你的权重都在根目录或单独文件夹） ---
+*.pt
+yolov8_weights/
+bestvvv.pt
+final_model_v3.pt
+yolo11n.pt
+yolov8n.pt
+
+# --- 3. 视频和大型媒体文件 ---
+*.mp4
+*.avi
+
+# --- 4. Python 和 IDE 配置文件 ---
+__pycache__/
+.vscode/
+.idea/
+*.pyc
+
+# --- 5. 其他系统文件 ---
+users_db.json
